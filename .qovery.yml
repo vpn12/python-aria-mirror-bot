@@ -1,0 +1,11 @@
+---
+application:
+  name: "python-aria-mirror-bot"
+  project: "asdf1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-python-aria-mirror-bot"
+  routes:
+  - application_name: "python-aria-mirror-bot"
+    paths:
+    - "/*"
